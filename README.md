@@ -18,3 +18,7 @@
   </div>
 
   在定位目标坐标时，通过scope head中的bin classification预测目标四条边的目标长度，然后再借助于border regression对检测框进行精调。
+
+2. [Dual Super-Resolution Learning for Semantic Segmentation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Dual_Super-Resolution_Learning_for_Semantic_Segmentation_CVPR_2020_paper.pdf)  (2020.7.9)
+
+将超分任务作为辅助任务引入到分割框架中，采用多任务的形式辅助训练，推断时无需超分任务。
