@@ -23,6 +23,6 @@
 
 将超分任务作为辅助任务引入到分割框架中，采用多任务的形式辅助训练，推断时无需超分任务。
 
-3. [Learning Dynamic Routing for Semantic Segmentation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Dual_Super-Resolution_Learning_for_Semantic_Segmentation_CVPR_2020_paper.pdf)  (2020.7.9)
+3. [Learning Dynamic Routing for Semantic Segmentation](https://github.com/yanwei-li/DynamicRouting)  (2020.7.12)
 
 基于数据驱动的多尺度特征融合方式（很明显，这种方式在训练过程中吃显存吃的很厉害）。
