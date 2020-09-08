@@ -37,3 +37,7 @@
 </div>
 
 论文针对每个目标，针对每个水平的bounding box增加了四个角点的偏移量<a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" title="\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" /></a>，另外预测r，当r小于某一阈值时，偏移量才起作用。
+
+5. [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://github.com/xieenze/PolarMask)  (2020.9.8)
+
+在Anchor-Free框架FCOS的基础上，基于极坐标系建模轮廓，把实例分割问题转化为实例中心点分类（instance center classification）问题和密集距离回归（dense distance regression）问题。提出Polar CenterNess和Polar IoU Loss，用于优化实例中心点以及极坐标位置。在没有使用任何tricks的情况下，PolarMask在ResNext 101的配置下在coco-test-dev上取得了32.9 mAP。
