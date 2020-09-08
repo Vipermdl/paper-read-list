@@ -36,4 +36,4 @@
 <img src="/image/gliding_vertex.png"/>
 </div>
 
-论文针对每个目标，针对每个水平的bounding box增加了四个角点的偏移量<a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" title="\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" /></a>，另外预测$r$，当$r$小于某一阈值时，偏移量才起作用。
+论文针对每个目标，针对每个水平的bounding box增加了四个角点的偏移量<a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" title="\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}" /></a>，另外预测r，当r小于某一阈值时，偏移量才起作用。
