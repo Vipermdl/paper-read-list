@@ -45,3 +45,7 @@
 6. [Cross-view Semantic Segmentation for Sensing Surroundings] (2020.11.9 周博磊组的论文)
 
 跨视角分割任务，设计视角转化模块，将前视视角的feature map转化成top-to-down俯视视角，进而采用domain adaptation的思路进行训练。
+
+7. [Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimation]( https://github.com/sshan-zhao/GASDA)  (2020.9.8)
+
+将domain adaptation 和深度估计相结合，设计Geometry Consistency Loss等五种Loss, 估计训练并非易事。
