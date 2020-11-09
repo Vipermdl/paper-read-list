@@ -41,3 +41,7 @@
 5. [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://github.com/xieenze/PolarMask)  (2020.9.8)
 
 在Anchor-Free框架FCOS的基础上，基于极坐标系建模轮廓，把实例分割问题转化为实例中心点分类（instance center classification）问题和密集距离回归（dense distance regression）问题。提出Polar CenterNess和Polar IoU Loss，用于优化实例中心点以及极坐标位置。在没有使用任何tricks的情况下，PolarMask在ResNext 101的配置下在coco-test-dev上取得了32.9 mAP。
+
+6. [Cross-view Semantic Segmentation for Sensing Surroundings] (2020.11.9 周博磊组的论文)
+
+跨视角分割任务，设计视角转化模块，将前视视角的feature map转化成top-to-down俯视视角，进而采用domain adaptation的思路进行训练。
